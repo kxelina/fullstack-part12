@@ -1,0 +1,74 @@
+Script started on 2024-11-16 18:06:53+02:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="80" LINES="24"]
+[?2004h]0;kxelina@el: ~/part12-containers-applications[01;32mkxelina@el[00m:[01;34m~/part12-containers-applications[00m$ exitcho "hello"/bin/python2 /home/kxelina/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/printEnvVariablesToFile.py /home/kxelina/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/deactivate/bash/envVars.txt[A[A0-linux-x64/python_files/printEnvVariablesToF[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0-linux-x64/pyt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A1-linux-x64/python_files/printEnvVariablesToF[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1-linux-x64/pyt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[A
+]0;kxelina@el: ~/part12-containers-applications[01;32mkxelina@el[00m:[01;34m~/part12-containers-applications[00m$ [23Pecho "hello"
+
+[K
+
+[K
+
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxit[K[K[7msudo docker container run hello-wor[27m[7ml[27m[7md[27m[A
+]0;kxelina@el: ~/part12-containers-applications[01;32mkxelina@el[00m:[01;34m~/part12-containers-applications[00m$ sudo docker container run hello-world
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker container run hello-world[K[A
+]0;kxelina@el: ~/part12-containers-applications[01;32mkxelina@el[00m:[01;34m~/part12-containers-applications[00m$ [C[C[C[Cdocker container run hello-world 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P
+[?2004l
+docker: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/create": dial unix /var/run/docker.sock: connect: permission denied.
+See 'docker run --help'.
+[?2004h]0;kxelina@el: ~/part12-containers-applications[01;32mkxelina@el[00m:[01;34m~/part12-containers-applications[00m$ docker container run hello-worldexit[Kdocker container run hello-world[1@s[1@u[Cdocker container run hello-world [A
+]0;kxelina@el: ~/part12-containers-applications[01;32mkxelina@el[00m:[01;34m~/part12-containers-applications[00m$ [C[C[Codocker container run hello-world[A
+]0;kxelina@el: ~/part12-containers-applications[01;32mkxelina@el[00m:[01;34m~/part12-containers-applications[00m$ [C[C[C[C docker container run hello-world[A
+]0;kxelina@el: ~/part12-containers-applications[01;32mkxelina@el[00m:[01;34m~/part12-containers-applications[00m$ [C[C[C[C[C
+
+
+[?2004l
+[sudo] password for kxelina: 
+Sorry, try again.
+[sudo] password for kxelina: 
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[?2004h]0;kxelina@el: ~/part12-containers-applications[01;32mkxelina@el[00m:[01;34m~/part12-containers-applications[00m$ [7mdocker run -it ubuntu bash[27mdocker run -it ubuntu bash
+[?2004l
+docker: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/create": dial unix /var/run/docker.sock: connect: permission denied.
+See 'docker run --help'.
+[?2004h]0;kxelina@el: ~/part12-containers-applications[01;32mkxelina@el[00m:[01;34m~/part12-containers-applications[00m$ docker run -it ubuntu bash[1@s[1@u[C[1@d[1@o[1@ 
+[?2004l
+[?2004h]0;root@b4958d0549f2: /root@b4958d0549f2:/# mkdir /usr/src/app
+[?2004l
+[?2004h]0;root@b4958d0549f2: /root@b4958d0549f2:/# ls
+[?2004l
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib64[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;34mmedia[0m  [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[?2004h]0;root@b4958d0549f2: /root@b4958d0549f2:/# touch[3Plsmkdir /usr/src/app[1P[1P[1P[1P[1P[1@t[1@o[1@u[1@c[1@h /usr/src/app/index.js
+[?2004l
+[?2004h]0;root@b4958d0549f2: /root@b4958d0549f2:/# [Kcd  touch /usr/src/app/index.js[1P[1P[1P[1P[1P[1@c[1@d /usr/src/app/index.js         
+[?2004l
+[?2004h]0;root@b4958d0549f2: /usr/src/approot@b4958d0549f2:/usr/src/app# ls
+[?2004l
+index.js
+[?2004h]0;root@b4958d0549f2: /usr/src/approot@b4958d0549f2:/usr/src/app# exit
+[?2004l
+exit
+
+Script done on 2024-11-17 17:54:30+02:00 [COMMAND_EXIT_CODE="127"]
